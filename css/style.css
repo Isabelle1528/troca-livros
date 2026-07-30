@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+ }
+header{
+    background-color: rgb(219, 164, 210);
+    color: rgb(239, 241, 243);
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(186, 25, 207);
+    align-items: center;
+    padding: 0 100px ;
+}
+ 
+ul{
+    display: flex;
+    gap: 40px;
+}
+ 
+#nome-logo{
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(209, 10, 159);
+}
+ 
+a:hover{
+    color: rgb(8, 7, 100);
+    transform: scale(2);
+
+    text-decoration: none;
+    color: rgb(129, 23, 115);
+    background-color: rgb(198, 117, 223);
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 2px 2px 2px purple;
+}
