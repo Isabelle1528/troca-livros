@@ -146,8 +146,8 @@ p{
 }
  
 .grade-livros{
-    max-width: 80vw;
-    margin: 0px auto;
+    max-width: 100vw;
+    margin: 15px;
  
 }
  
@@ -209,4 +209,36 @@ p{
 }
 .btn-livros:houver{
     background-color: #fa0cbe;
+}
+
+/*Seção como funciona*/
+
+.ajuda{
+    background-color: #f5e3f1;
+    padding: 60px 20px;
+}
+
+.ajuda h2{
+    color: rgb(255, 0, 255);
+    text-align: center;
+    margin: 40px;
+    font-size: 35px;
+}
+ 
+.todos-passo{
+    display: flex;
+    justify-content: center;
+    max-width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+   
+}
+.numero-passo{
+    color: #fa07fa;
+}
+
+.passo{
+width: 25;
 }
