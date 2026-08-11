@@ -62,15 +62,6 @@ ul{
  
 }
  
-.banner-principal{
-    text-align: center;
-    padding: 10xp 200px;
-    background-image: linear-gradient( #6b098f, #310794);
-    color: white;
-    min-height:25vh;
-   
-}
- 
 h1{
    padding-top: 30px;
    padding-bottom: 20px;
@@ -222,7 +213,7 @@ p{
 }
 
 .ajuda h2{
-    color: rgb(255, 0, 255);
+    color: rgb(252, 249, 252);
     text-align: center;
     margin: 40px;
     font-size: 35px;
@@ -239,7 +230,7 @@ p{
    
 }
 .numero-passo{
-    color: #fa07fa;
+    color: #faf8fa;
 }
 
 .passo{
@@ -254,7 +245,76 @@ width: 25;
     justify-content: space-between;
     padding: 10px;
 }
+
+footer{
+    background-image: linear-gradient(#fad9f8)
+
+}
+
 .footer-container{
-    background-image: linear-gradient(rgb(243, 181, 235));
+    display: flex;
+    max-width: 85vw;
+    margin: 0 auto;
+
+}
+.logo{
+    font-size: 25px;
+}
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #fad9f8;
+    padding: 10px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 85vw;
+    margin: 0 auto;
     color: #080808;
 }
+
+.footer-coluna {
+    flex: 1;
+}
+
+.footer-coluna h4 {
+    margin: 0 0 10px 0;
+}
+
+/* IMPORTANTE:
+   O ul geral do seu site tem display:flex.
+   Aqui estamos anulando isso somente no footer.
+*/
+.footer-coluna ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-coluna li {
+    margin-bottom: 8px;
+}
+
+.footer-coluna p {
+    margin-top: 15px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 500;
+}
+.ajuda{
+    background-image: linear-gradient( #9208c4, #d107b6);
+    padding: 60px 20px;
+}
+ 
