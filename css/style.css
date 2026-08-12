@@ -318,3 +318,11 @@ footer {
     padding: 60px 20px;
 }
  
+#inicio{
+    scroll-margin-top: 10vh;
+}
+
+#livros{
+    scroll-margin-top: 20vh;
+}
+
