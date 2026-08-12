@@ -1,0 +1,9 @@
+@import url(style.css);
+
+
+main{
+    width: 1142px;
+    height: 673px;
+    border: 2px solid #ee73ee;
+    margin: 10vh auto;
+}

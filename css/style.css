@@ -322,7 +322,100 @@ footer {
     scroll-margin-top: 10vh;
 }
 
-#livros{
+#Livros{
     scroll-margin-top: 20vh;
 }
 
+footer{
+    background-color: #06135c;
+    color: white;
+    color: #731097;
+}
+ 
+.footer-container{
+    display: flex;
+    max-width: 85vw;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 500;
+}
+ 
+.footer-coluna {
+    flex: 1;
+    min-width: 280px;
+}
+ 
+.footer-coluna p {
+    color: #080808;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+ 
+ 
+.footer-coluna ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 0;
+}
+ 
+.footer-coluna a {
+    color: #080808;
+    text-decoration: none;
+    font-size: 15px;
+    transition: opacity 0.2s;
+}
+ 
+.footer-coluna a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+ 
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+ 
+.footer-linha {
+    max-width: 80vw;
+    margin: 20px auto;
+}
+ 
+.footer-copy {
+    text-align: center;
+    color: #83048f;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+ 
+.footer-coluna h4{
+    color: #731097;
+}
+ 
+.footer-copy{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+ 
+.footer-social i{
+    font-size: 40px;
+    color: #731097;
+}
+ 
+.footer-social i:hover{
+     color: rgb(10, 10, 10);
+     transform: scale(1.1) ;
+}
+ 
+.footer-coluna li a:hover{
+    color:  #731097;
+    font-weight: 600;
+}
+ 
+ 
+ 
