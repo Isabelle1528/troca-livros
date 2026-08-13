@@ -6,4 +6,12 @@ main{
     height: 673px;
     border: 2px solid #ee73ee;
     margin: 10vh auto;
+
+}
+.sessao-imagem{
+    width: 522px;
+    height: 673px;
+    display: flex;
+    
+
 }
