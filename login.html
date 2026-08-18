@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
     <title>Document</title>
 </head>
-<body>
- <main>
-    <section class=sessao-imagem>
-        <img src="tela-login.png" alt="Casal em uma livraria">
-    </section>
 
-    <section class=sessao-login>
+<body>
+    <main>
+        <section class=sessao-imagem>
+            <img src="tela-login.png" alt="Casal em uma livraria">
+        </section>
+
+        <section class=sessao-login>
             <div class="area-titulo">
-                <h3>Connect <span>  Book </span></h3>
-                <h2>Troque Livros </h2>
+                <h3><span>ConnectBook</span></h3>
+                <h2>Troque Livros, multiplique histórias</h2>
 
             </div>
-    </section>
+            <form action="#" method="post">
+                <label for="e-mail">Usuário ou E-mail</label>
+                <input type="text" id="e-mail" placeholder="Usuario ou E-mail"> 
 
-    
- </main>
+
+                <label for="senha"> Senha </label>
+                <input type="password" id="senha" placeholder="Informe sua Senha"> 
+
+                <div class="links-senha">
+                    <input type="checkbox" id="">
+                    <label for="Lembrar-senha"> Lembrar senha</label>
+
+                    <a href="#" id="link-squeceu-senha">Esqueci a senha?</a>
+                </div>
+
+                <button> Acessar </button>
+                <a href="cadastro.html">Ainda não possuo uma conta </a>
+
+            </form>
+
+
+        </section>
+
+
+    </main>
 </body>
+
 </html>

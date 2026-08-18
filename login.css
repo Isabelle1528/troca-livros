@@ -1,17 +1,109 @@
 @import url(style.css);
-
+ 
+body{
+    background-image: linear-gradient();
+    width: 100vw;
+} 
 
 main{
     width: 1142px;
     height: 673px;
-    border: 2px solid #ee73ee;
+    border: 2px solid var(--azul-principal);
     margin: 10vh auto;
-
+    background-image: linear-gradient(rgba(253, 91, 205, 0.35), rgba(252, 116, 234, 0.35));
+    display: flex;
 }
+ 
 .sessao-imagem{
     width: 522px;
     height: 673px;
     display: flex;
-    
-
+    justify-content: center;
+    align-items: center;
 }
+ 
+.sessao-login{
+    height: 673px;
+    width: 620px ;
+}
+.area-titulo samp{
+    color: rgb(238, 10, 200);
+}
+ 
+.area-titulo{
+    text-align: center;
+}
+ 
+.area-titulo h1, span{
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+
+.area-titulo h2{
+    font-size: 24px;
+    color: rgb(8, 7, 100);
+}
+ 
+.sessao-login{
+    height: 673px;
+    width: 620px ;
+}
+.area-titulo span{
+    color: rgb(8, 7, 100);
+}
+ 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    gap: 10px;
+    margin: auto;
+}
+ 
+form input{
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+ 
+#email{
+    margin-bottom: 15px;
+}
+ 
+button{
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    background-image: linear-gradient( to right, rgb(150, 21, 167, 80%),rgb(8, 7, 100, 80%) );
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+ 
+.links-senha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+ 
+.links-senha label{
+    position: relative;
+    right: 75px;
+    bottom: 3px;
+}
+ 
+.links-senha label, input, a{
+    color: black;
+    font-weight: 400;
+}
+ 
+section a:hover{
+   color: blueviolet;
+}
+ 
+#link-nao-conta{
+    text-align: center;
+}
+ 
